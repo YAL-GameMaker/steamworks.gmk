@@ -1,4 +1,5 @@
 // @author YellowAfterlife
+// License: MIT https://opensource.org/licenses/mit-license.php
 
 #include "./../Steamworks/public/steam/steam_api.h"
 #include <vector>

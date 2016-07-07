@@ -2,6 +2,7 @@
 Steamworks SDK support for GameMaker 8.1 and earlier.
 
 ## Installation
+* Add `Output.gmk/steam_api.dll` to the Included Files (menu: Resources - Included Files).
 * Add `Output.gmk/Steamworks.gmk.dll` to the Included Files.
 * Create a `steam_appid.txt` file containing your Steam App ID, and add it to the Included Files
 	
@@ -52,7 +53,7 @@ Script naming closely follows that of [built-in GameMaker-Studio functions](http
 ## Meta
 Author: Vadim "YellowAfterlife" Dyachenko
 
-License: GNU LGPL v3 https://www.gnu.org/licenses/lgpl-3.0
+License: MIT https://opensource.org/licenses/mit-license.php
 
 ## Special thanks
 
