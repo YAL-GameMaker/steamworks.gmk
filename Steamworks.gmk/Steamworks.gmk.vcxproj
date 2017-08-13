@@ -131,9 +131,9 @@
     </Link>
     <PostBuildEvent>
       <Command>copy /y "$(ProjectDir)Steamworks.gmk.cpp" "$(SolutionDir)Output.gmx\Steamworks.gmk\Steamworks.gmk.cpp"
-GmxGen "$(SolutionDir)Output.gmx\Steamworks.gmk.extension.gmx"
+cmd /C GmxGen "$(SolutionDir)Output.gmx\Steamworks.gmk.extension.gmx"
 copy /y "$(TargetPath)" "$(SolutionDir)Output.gmk\$(TargetFileName)"
-ExtGmxToGml8 "$(SolutionDir)Output.gmx\Steamworks.gmk.extension.gmx" "$(SolutionDir)Output.gmk\Steamworks.gmk.gml" steam_init_dll</Command>
+cmd /C ExtGmxToGml8 "$(SolutionDir)Output.gmx\Steamworks.gmk.extension.gmx" "$(SolutionDir)Output.gmk\Steamworks.gmk.gml" steam_init_dll</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
